@@ -28,12 +28,12 @@ Curieuse et orientée solution, je cherche à évoluer dans des environnements o
 
 #  Expérience professionnelle 
 
-## Alten – Ingénieure stagiaire en IA  Industrie 4.0
+## <img src="images/Alten_logo.png" width="40"> Alten – Ingénieure stagiaire en IA  Industrie 4.0
 
 
 ---
 
-##  IRAP – Traitement d’images spatiales
+##  <img src="images/irap_logo.jpeg" width="40"> IRAP – Traitement d’images spatiales
 
 
 ---
