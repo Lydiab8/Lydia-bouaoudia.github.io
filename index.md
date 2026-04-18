@@ -56,7 +56,20 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 - Interface interactive avec Streamlit
 
 
+###  Gestion de projet 
 
+- Coordination d’une équipe projet
+- Définition des axes de recherche
+- Développement complet du système (from scratch)
+- Rédaction scientifique (BST, rapport)
+- 
+- ###  Méthodologie
+
+- Approche **Agile (sprints, daily, weekly)**
+- Itérations rapides et amélioration continue
+- Collaboration multidisciplinaire
+
+Travail réalisé en **forte autonomie** dans un contexte peu structuré au départ
 
 
 ---
@@ -70,35 +83,47 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 <details>
 <summary> Voir les détails techniques</summary>
 
-###  Architecture
+###  Architecture du système
 
-- Modélisation en MDP
-- Apprentissage par renforcement (PPO)
-- Environnement simulé (énergie + machines + stockage)
+Le système repose sur plusieurs composants clés :
 
----
+####  Environnement simulé
 
-###  Démarche
+- Simulation d'une usine realiste sous python
+#### Données : 
+- Données réelles récupérées d'API 
+- Données simulées à partir de l'usine
 
-- Entraînement sur données synthétiques
-- Intégration progressive de données réelles
-- Modèle hybride RL + règles
 
----
+####  Modèle IA
+- Algorithme **PPO (Proximal Policy Optimization)**
+- Apprentissage séquentiel basé sur récompenses 
 
-###  Défis
 
-- Fonction de récompense complexe
-- Instabilité du RL
-- Normalisation des données
+####  Interface utilisateur
+- visualisation avec **Streamlit**
+- analyse des décisions et des gains
 
----
 
-###  Perspectives
+### Démarche expérimentale
 
-- amélioration de la robustesse
-- règles adaptatives
-- intégration feedback humain
+Le projet a été structuré en plusieurs phases :
+
+1. **Phase 1 : Simulation**
+   - entraînement sur données synthétiques
+   - feedback aléatoire
+
+2. **Phase 2 : Données réelles**
+   - normalisation des données
+   - feedback semi-automatique basé sur règles
+
+3. **Phase 3 : Modèle hybride**
+   - combinaison RL + règles expertes
+   - amélioration de la stabilité et des performances
+
+
+
+
 
 </details>
 
