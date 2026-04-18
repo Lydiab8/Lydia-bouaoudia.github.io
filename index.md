@@ -33,7 +33,7 @@ Curieuse et orientée solution, je cherche à évoluer dans des environnements o
 
 ---
 
-##  <img src="images/irap_logo.jpeg" width="40"> IRAP – Traitement d’images spatiales
+##  <img src="images/irap_logo.jpeg" width="50"> IRAP – Traitement d’images spatiales
 
 
 ---
