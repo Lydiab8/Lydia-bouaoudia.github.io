@@ -76,9 +76,7 @@ Travail réalisé en **forte autonomie** dans un contexte peu structuré au dép
 
 ###  Démo
 
-<video controls width="700">
-  <source src="videos/Bouaoudia_simulation_green_factory.mp4" type="video/mp4">
-</video>
+👉 [Tester la vidéo](videos/Bouaoudia_simulation_green_factory.mp4)
 
 ---
 
