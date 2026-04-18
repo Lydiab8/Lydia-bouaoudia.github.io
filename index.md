@@ -28,8 +28,79 @@ Curieuse et orientée solution, je cherche à évoluer dans des environnements o
 
 #  Expérience professionnelle 
 
-## <img src="images/Alten_logo.png" width="40"> Alten – Ingénieure stagiaire en IA  Industrie 4.0
+## <img src="images/Alten_logo.png" width="40"> Alten – Ingénieure stagiaire en  IA pour l’optimisation énergétique (Projet Green Factory)
+###  Contexte : 
 
+Ce stage s’inscrit dans le projet **Green Factory**, visant à réduire l’empreinte carbone des sites industriels en combinant intelligence artificielle, énergies renouvelables et optimisation énergétique. 
+
+L’objectif était de concevoir un système capable d’optimiser en temps réel :
+- l’utilisation des sources d’énergie (réseau, renouvelables, stockage)
+- et le planning de production des machines de l'usine
+  
+  ---
+
+###  Résultats clés
+
+- +29% de gains énergétiques  
+- +69% de gains économiques  
+- Réduction des émissions de CO₂  
+
+---
+
+###  Ce que j’ai développé
+
+- Agent de **Reinforcement Learning (PPO)**
+- Simulation complète d’une usine (Gymnasium)
+- Intégration de modèles prédictifs (LSTM)
+- Système hybride : IA + règles expertes
+- Interface interactive avec Streamlit
+
+
+
+
+
+---
+
+###  Démo
+
+
+
+---
+
+<details>
+<summary> Voir les détails techniques</summary>
+
+###  Architecture
+
+- Modélisation en MDP
+- Apprentissage par renforcement (PPO)
+- Environnement simulé (énergie + machines + stockage)
+
+---
+
+###  Démarche
+
+- Entraînement sur données synthétiques
+- Intégration progressive de données réelles
+- Modèle hybride RL + règles
+
+---
+
+###  Défis
+
+- Fonction de récompense complexe
+- Instabilité du RL
+- Normalisation des données
+
+---
+
+###  Perspectives
+
+- amélioration de la robustesse
+- règles adaptatives
+- intégration feedback humain
+
+</details>
 
 ---
 
