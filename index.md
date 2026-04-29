@@ -165,8 +165,9 @@ Le stage s’inscrit dans le traitement de données issues du satellite SMOS, d�
 ### Illustration des résultats
 
 Exemples de reconstructions et de traitements obtenus :
-
-![Données interférométriques SMOS](images/69A18B58-32F5-460F-B33F-70B4CC451733.jpg)
+<p align="center">
+  <img src="images/69A18B58-32F5-460F-B33F-70B4CC451733.jpg" width="400">
+</p>
 
 ---
 
@@ -180,7 +181,7 @@ Exemples de reconstructions et de traitements obtenus :
 - Problèmes inverses  
 - Régularisation  
 - Optimisation sous contraintes  
-<details>
+
 ---
 
 # 📫 Contact
