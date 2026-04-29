@@ -60,13 +60,12 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 
 - Coordination d’une équipe projet
 - Définition des axes de recherche
-- Développement complet du système (from scratch)
-- Rédaction scientifique (BST, rapport)
-- 
+- Développement complet du système 
+- Rédaction scientifique (Bilan technique et scientifique pour le crédit impot recherche , rapport de stage )
+  
 - ###  Méthodologie
 
 - Approche **Agile (sprints, daily, weekly)**
-- Itérations rapides et amélioration continue
 - Collaboration multidisciplinaire
 
 Travail réalisé en **forte autonomie** dans un contexte peu structuré au départ
@@ -97,12 +96,13 @@ Le système repose sur plusieurs composants clés :
 
 ####  Modèle IA
 - Algorithme **PPO (Proximal Policy Optimization)**
-- Apprentissage séquentiel basé sur récompenses 
+- Apprentissage  basé sur des récompenses et la minimisation de fonction couts
+- Utilisation de **Tensorboard** pour le choix des hyperparamètres.
 
 
 ####  Interface utilisateur
-- visualisation avec **Streamlit**
-- analyse des décisions et des gains
+- Visualisation et analyse des resultats avec **Streamlit**
+
 
 
 ### Démarche expérimentale
