@@ -82,7 +82,6 @@ Travail réalisé en **forte autonomie** dans un contexte peu structuré au dép
 
 [![Aperçu de la simulation](images/vlcsnap-2026-04-29-14h26m10s604.png)](videos/Bouaoudia_simulation_green_factory.mp4)
 
----
 
 
 
@@ -137,6 +136,51 @@ Le projet a été structuré en plusieurs phases :
 ##  <img src="images/irap_logo.jpeg" width="60"> IRAP – Traitement d’images spatiales
 
 
+### Contexte du projet
+
+Le stage s’inscrit dans le traitement de données issues du satellite SMOS, dédié à l’observation de l’humidité des sols et de la salinité des océans.
+
+![Satellite SMOS](images/smos1.jpg)
+
+---
+
+### Objectifs scientifiques
+
+- Reconstruction avancée des températures de brillance à partir de données interférométriques  
+- Amélioration de la précision des contours Terre-Mer  
+- Réduction des effets de repliement spatial (aliasing)  
+- Stabilisation des reconstructions via optimisation mathématique  
+
+---
+
+### Méthodes développées
+
+- Formulation d’un **problème inverse régularisé**  
+- Mise en place d’une **optimisation sous contraintes**  
+- Correction des effets d’aliasing interférométrique  
+- Amélioration de la robustesse des reconstructions spatiales  
+
+---
+
+### Illustration des résultats
+
+Exemples de reconstructions et de traitements obtenus :
+
+![Données interférométriques SMOS](images/smos2.jpg)
+
+---
+
+
+<details>
+<summary>Voir les outils utilisés</summary>
+
+- MATLAB  
+- LaTeX  
+- Traitement d’image  
+- Problèmes inverses  
+- Régularisation  
+- Optimisation sous contraintes  
+<details>
 ---
 
 # 📫 Contact
