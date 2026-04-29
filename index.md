@@ -80,7 +80,7 @@ Travail réalisé en **forte autonomie** dans un contexte peu structuré au dép
 
 👉 Une version de démonstration peut être fournie sur demande.
 
-[![Aperçu de la simulation](videos/thumbnail.png)](videos/Bouaoudia_simulation_green_factory.mp4)
+[![Aperçu de la simulation](images/vlcsnap-2026-04-29-14h26m10s604.png)](videos/Bouaoudia_simulation_green_factory.mp4)
 
 ---
 
