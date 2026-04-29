@@ -140,7 +140,7 @@ Le projet a été structuré en plusieurs phases :
 
 Le stage s’inscrit dans le traitement de données issues du satellite SMOS, dédié à l’observation de l’humidité des sols et de la salinité des océans.
 
-![Satellite SMOS](images/smos1.jpg)
+![Satellite SMOS](images/smos_banner.jpg)
 
 ---
 
