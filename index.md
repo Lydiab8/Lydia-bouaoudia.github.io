@@ -49,11 +49,12 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 
 ###  Ce que j’ai développé
 
-- Agent de **Reinforcement Learning (PPO)**
-- Simulation complète d’une usine (Gymnasium)
-- Intégration de modèles prédictifs (LSTM)
-- Système hybride : IA + règles expertes
-- Interface interactive avec Streamlit
+
+- Conception d’un agent d’apprentissage par renforcement pour la prise de décision basé sur l'algorithme **PPO (Proximal Policy Optimization)**  
+- Développement d’un environnement simulé d’usine pour l'entrainement de l'agent avec **Gymnasium**  
+- Intégration de modèles prédictifs de type **LSTM** pour anticiper les dynamiques énergétiques  
+- Mise en place d’un système hybride combinant apprentissage par renforcement et règles expertes por l'amélioration des prises de décision. 
+- Développement d’une interface interactive pour la visualisation et l’analyse des résultats avec **Streamlit**  
 
 
 ###  Gestion de projet 
@@ -65,7 +66,7 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
   
 - ###  Méthodologie
 
-- Approche **Agile (sprints, daily, weekly)**
+- Approche **Agile (Sprints, Daily, Weekly)**
 - Collaboration multidisciplinaire
 
 Travail réalisé en **forte autonomie** dans un contexte peu structuré au départ
@@ -75,7 +76,11 @@ Travail réalisé en **forte autonomie** dans un contexte peu structuré au dép
 
 ###  Démo
 
-👉 [Tester la vidéo](videos/Bouaoudia_simulation_green_factory.mp4)
+⚠️ Pour des raisons de confidentialité, la démonstration complète du projet n’est pas publique.
+
+👉 Une version de démonstration peut être fournie sur demande.
+
+[![Aperçu de la simulation](videos/thumbnail.png)](videos/Bouaoudia_simulation_green_factory.mp4)
 
 ---
 
