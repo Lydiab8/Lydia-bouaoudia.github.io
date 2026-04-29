@@ -39,11 +39,11 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
   
   ---
 
-###  Résultats clés
+### Résultats clés du projet
 
-- +29% de gains énergétiques  
-- +69% de gains économiques  
-- Réduction des émissions de CO₂  
+-Réalisation d’un état de l’art complet
+-Développement des premiers prototypes
+-Validation du projet dans le cadre du Crédit d’Impôt Recherche (note A)
 
 ---
 
@@ -79,57 +79,57 @@ Travail réalisé en **forte autonomie** dans un contexte peu structuré au dép
 
 ---
 
-<details>
-<summary> Voir les détails techniques</summary>
 
-###  Architecture du système
+
+<details>
+<summary>Voir les détails techniques</summary>
+
+### Architecture du système
 
 Le système repose sur plusieurs composants clés :
 
-####  Environnement simulé
+#### Environnement simulé
+- Simulation d'une usine réaliste sous Python
 
-- Simulation d'une usine realiste sous python
-#### Données : 
-- Données réelles récupérées d'API 
-- Données simulées à partir de l'usine
+#### Données
+- Données réelles récupérées via API  
+- Données simulées à partir du modèle d’usine  
 
+#### Modèle IA
+- Algorithme **PPO (Proximal Policy Optimization)**  
+- Apprentissage par renforcement basé sur un système de récompenses et la minimisation d’une fonction de coût  
+- Utilisation de **TensorBoard** pour le suivi des performances et l’ajustement des hyperparamètres  
 
-####  Modèle IA
-- Algorithme **PPO (Proximal Policy Optimization)**
-- Apprentissage  basé sur des récompenses et la minimisation de fonction couts
-- Utilisation de **Tensorboard** pour le choix des hyperparamètres.
+#### Interface utilisateur
+- Visualisation et analyse des résultats avec **Streamlit**  
 
-
-####  Interface utilisateur
-- Visualisation et analyse des resultats avec **Streamlit**
-
-
+---
 
 ### Démarche expérimentale
 
 Le projet a été structuré en plusieurs phases :
 
 1. **Phase 1 : Simulation**
-   - entraînement sur données synthétiques
-   - feedback aléatoire
+   - Entraînement sur données synthétiques  
+   - Feedback aléatoire  
 
 2. **Phase 2 : Données réelles**
-   - normalisation des données
-   - feedback semi-automatique basé sur règles
+   - Normalisation des données  
+   - Feedback semi-automatique basé sur des règles  
 
 3. **Phase 3 : Modèle hybride**
-   - combinaison RL + règles expertes
-   - amélioration de la stabilité et des performances
-
-
-
-
+   - Combinaison apprentissage par renforcement + règles expertes  
+   - Amélioration de la stabilité et des performances  
 
 </details>
 
+
+
+
+
 ---
 
-##  <img src="images/irap_logo.jpeg" width="50"> IRAP – Traitement d’images spatiales
+##  <img src="images/irap_logo.jpeg" width="60"> IRAP – Traitement d’images spatiales
 
 
 ---
