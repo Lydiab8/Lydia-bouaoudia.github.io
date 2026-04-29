@@ -37,7 +37,7 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 - l’utilisation des sources d’énergie (réseau, renouvelables, stockage)
 - et le planning de production des machines de l'usine
   
-  ---
+  
 
 ### Résultats clés du projet
 
@@ -45,7 +45,7 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 -Développement des premiers prototypes
 -Validation du projet dans le cadre du Crédit d’Impôt Recherche (note A)
 
----
+
 
 ###  Ce que j’ai développé
 
@@ -64,7 +64,7 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 - Développement complet du système 
 - Rédaction scientifique (Bilan technique et scientifique pour le crédit impot recherche , rapport de stage )
   
-- ###  Méthodologie
+ ###  Méthodologie
 
 - Approche **Agile (Sprints, Daily, Weekly)**
 - Collaboration multidisciplinaire
@@ -72,7 +72,7 @@ L’objectif était de concevoir un système capable d’optimiser en temps rée
 Travail réalisé en **forte autonomie** dans un contexte peu structuré au départ
 
 
----
+
 
 ###  Démo
 
@@ -144,7 +144,7 @@ Le stage s’inscrit dans le traitement de données issues du satellite SMOS, d�
 <p align="center">
   <img src="images/smos_banner.jpg" width="400">
 </p>
----
+
 
 ### Objectifs scientifiques
 
@@ -153,7 +153,6 @@ Le stage s’inscrit dans le traitement de données issues du satellite SMOS, d�
 - Réduction des effets de repliement spatial (aliasing)  
 - Stabilisation des reconstructions via optimisation mathématique  
 
----
 
 ### Méthodes développées
 
@@ -171,9 +170,6 @@ Exemples de reconstructions et de traitements obtenus :
   <img src="images/69A18B58-32F5-460F-B33F-70B4CC451733.jpg" width="400">
 </p>
 
----
-
-
 <details>
 <summary>Voir les outils utilisés</summary>
 
@@ -183,7 +179,7 @@ Exemples de reconstructions et de traitements obtenus :
 - Problèmes inverses  
 - Régularisation  
 - Optimisation sous contraintes  
-
+</details>
 ---
 
 # 📫 Contact
