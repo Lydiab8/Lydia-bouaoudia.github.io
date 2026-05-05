@@ -228,7 +228,87 @@ Dans le cadre du Master 2 Signal, Image et Apprentissage Automatique, développe
   </li>
   <li>Documentation technique générée avec <b>Doxygen</b></li>
 </ul>
+  
+<h3>Détails des méthodes implémentées</h3>
 
+<h4>Calcul de l’histogramme</h4>
+<ul>
+  <li>Implémentation du calcul d’histogramme pour images en niveaux de gris et en couleur</li>
+  <li>Parcours de l’image pixel par pixel pour compter les occurrences d’intensité</li>
+  <li>Gestion séparée des canaux RGB puis combinaison possible</li>
+</ul>
+
+<p align="center">
+  <img src="images/histrgb.png" width="400"><br>
+  <i>Exemple d’histogramme d’une image</i>
+</p>
+
+<h4>Filtrage par convolution (filtre gaussien)</h4>
+<ul>
+  <li>Implémentation d’un filtrage spatial par convolution</li>
+  <li>Utilisation d’un noyau gaussien 3x3 pour lisser l’image et réduire le bruit</li>
+  <li>Chaque pixel est remplacé par une combinaison linéaire de ses voisins pondérés</li>
+  <li>Connexité 8 utilisée pour prendre en compte tous les pixels voisins</li>
+</ul>
+
+<p align="center">
+  <img src="images/bruit.png" width="400"><br>
+  <i>Effet du filtrage gaussien (réduction du bruit)</i>
+</p>
+
+<h4>Détection de contours (filtre Sobel)</h4>
+<ul>
+  <li>Implémentation d’un algorithme de détection de contours basé sur le filtre Sobel</li>
+  <li>Conversion de l’image en niveaux de gris</li>
+  <li>Application d’un flou gaussien pour réduire le bruit</li>
+  <li>Calcul des gradients horizontaux et verticaux (Gx, Gy)</li>
+  <li>Calcul de la norme du gradient pour détecter les contours</li>
+  <li>Application d’un seuillage pour extraire les contours significatifs</li>
+</ul>
+
+<p align="center">
+  <img src="images/contour.png" width="400"><br>
+  <i>Détection de contours avec le filtre Sobel</i>
+</p>
+
+<h4>Rehaussement de contours</h4>
+<ul>
+  <li>Utilisation des contours détectés pour améliorer la visibilité des structures</li>
+  <li>Ajout pondéré des contours à l’image originale</li>
+  <li>Application sur chaque canal pour les images couleur</li>
+  <li>Normalisation des valeurs pour rester dans l’intervalle [0, 255]</li>
+</ul>
+
+<p align="center">
+  <img src="images/rehausse.png" width="400"><br>
+  <i>Rehaussement des contours</i>
+</p>
+
+<h4>Segmentation par couleur (espace HSV)</h4>
+<ul>
+  <li>Conversion de l’image de l’espace RGB vers HSV</li>
+  <li>Définition de plages de teinte pour détecter certaines couleurs (rouge, vert, bleu)</li>
+  <li>Création de masques binaires pour chaque couleur</li>
+  <li>Fusion des masques pour obtenir les régions d’intérêt</li>
+</ul>
+
+<p align="center">
+  <img src="images/detec.png" width="400"><br>
+  <i>Segmentation par couleur</i>
+</p>
+
+<h4>Détection de droites (transformée de Hough)</h4>
+<ul>
+  <li>Implémentation d’une méthode de détection de droites basée sur la transformée de Hough</li>
+  <li>Accumulation des votes dans l’espace paramétrique</li>
+  <li>Détection des droites à partir des maxima</li>
+  <li>Résultats dépendants de la qualité des contours</li>
+</ul>
+
+<p align="center">
+  <img src="images/hough.png" width="400"><br>
+  <i>Détection de droites</i>
+</p>
 <details>
 <summary>Outils utilisés</summary>
 
